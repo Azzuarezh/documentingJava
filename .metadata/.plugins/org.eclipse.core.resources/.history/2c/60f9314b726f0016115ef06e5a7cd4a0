@@ -1,0 +1,57 @@
+/**
+ * Ini adalah class Sekolah
+ */
+package documentingJava.Instansi.Pendidikan;
+
+/**
+ * @author muhammad.thahir
+ *
+ */
+/**
+ * @author muhammad.thahir
+ *
+ */
+/**
+ * @author muhammad.thahir
+ *
+ */
+public class Sekolah {
+	
+	private String Guru;
+	private String Siswa;
+	private String Kelas;
+	
+	
+	/** fungsi untuk memanggil guru dari class sekolah
+	 * @return String nama guru
+	 */
+	public String getGuru() {
+		return Guru;
+	}
+	
+	
+	/**
+	 * fungsi untuk mengubah nama guru dari class sekolah
+	 * @param guru nama guru yang akan diganti
+	 */
+	public void setGuru(String guru) {
+		Guru = guru;
+	}
+	
+	/**
+	 * @return
+	 */
+	public String getSiswa() {
+		return Siswa;
+	}
+	public void setSiswa(String siswa) {
+		Siswa = siswa;
+	}
+	public String getKelas() {
+		return Kelas;
+	}
+	public void setKelas(String kelas) {
+		Kelas = kelas;
+	}
+
+}
